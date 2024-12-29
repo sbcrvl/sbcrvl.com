@@ -1,5 +1,0 @@
----
-breadcrumb: "bookshelf"
----
-
-Bookshelf
