@@ -7,15 +7,16 @@ const { site, frontmatter } = useData()
 
 <template>
   <div v-if="frontmatter.home">
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
-    <ul>
-      <li><a href="/markdown-examples.html">Markdown Examples</a></li>
-      <li><a href="/api-examples.html">API Examples</a></li>
-    </ul>
+    <header>
+      <a href="/">sbcrvl</a>
+    </header>
+    <Content />
   </div>
   <div v-else>
-    <a href="/">Home</a>
+    <header>
+      <a href="/">sbcrvl</a>
+      <a href="/about">about</a>
+    </header>
     <Content />
   </div>
 </template>
