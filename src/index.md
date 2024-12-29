@@ -1,1 +1,6 @@
-Index
+---
+home: true
+breadcrumb: "home"
+---
+
+Home

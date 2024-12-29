@@ -1,1 +1,5 @@
+---
+breadcrumb: "things"
+---
+
 Things

@@ -6,17 +6,12 @@ const { site, frontmatter } = useData()
 </script>
 
 <template>
-  <div v-if="frontmatter.home">
-    <header>
+  <header>
+    <div>
       <a href="/">sbcrvl</a>
-    </header>
-    <Content />
-  </div>
-  <div v-else>
-    <header>
-      <a href="/">sbcrvl</a>
-      <a href="/about">about</a>
-    </header>
-    <Content />
-  </div>
+      <span> / </span>
+      <span>{{ frontmatter.breadcrumb }}</span>
+    </div>
+  </header>
+  <Content />
 </template>
