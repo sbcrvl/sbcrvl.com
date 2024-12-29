@@ -1,5 +1,5 @@
 ---
-breadcrumb: "Notes"
+breadcrumb: "notes"
 ---
 
 # Notes
