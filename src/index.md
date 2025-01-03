@@ -1,6 +1,6 @@
 ---
 home: true
-breadcrumb: "home"
+breadcrumbs: ["home"]
 ---
 
 _The internet corner of_

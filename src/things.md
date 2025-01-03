@@ -1,5 +1,5 @@
 ---
-breadcrumb: "things"
+breadcrumbs: ["things"]
 ---
 
 # Things

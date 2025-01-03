@@ -1,5 +1,5 @@
 ---
-breadcrumb: "photos"
+breadcrumbs: ["photos"]
 ---
 
 # Photos

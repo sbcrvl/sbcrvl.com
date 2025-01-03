@@ -1,5 +1,5 @@
 ---
-breadcrumb: "about"
+breadcrumbs: ["about"]
 ---
 
 # About 

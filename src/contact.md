@@ -1,5 +1,5 @@
 ---
-breadcrumb: "contact"
+breadcrumbs: ["contact"]
 ---
 
 # Contact

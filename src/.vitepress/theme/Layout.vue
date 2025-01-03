@@ -10,7 +10,15 @@ const { site, frontmatter } = useData()
     <div>
       <a href="/">sbcrvl</a>
       <span> / </span>
-      <span>{{ frontmatter.breadcrumb }}</span>
+      <span v-for="(breadcrumb, index) in frontmatter.breadcrumbs">
+        <span v-if="index != frontmatter.breadcrumbs.length - 1">
+          <a v-bind:href="'/' + breadcrumb">
+            {{ breadcrumb }}
+          </a>
+          <span> / </span>
+        </span>
+        <span v-else="index">{{ breadcrumb }}</span>
+      </span>
     </div>
   </header>
   <main>
@@ -28,7 +36,7 @@ const { site, frontmatter } = useData()
       <div>
         <a href="/photos">Photos</a>
         <a href="/notes">Notes</a>
-        <a href="/books">Books</a>
+        <a href="/media">Media</a>
         <a href="/things">Things</a>
       </div>
     </nav>

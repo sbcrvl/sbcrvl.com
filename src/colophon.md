@@ -1,5 +1,5 @@
 ---
-breadcrumb: "colophon"
+breadcrumbs: ["colophon"]
 ---
 
 # Colophon

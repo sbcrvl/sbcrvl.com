@@ -1,5 +1,5 @@
 ---
-breadcrumb: "work"
+breadcrumbs: ["work"]
 ---
 
 # Work
