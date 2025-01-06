@@ -80,6 +80,11 @@ html body hr {
   height: 1px;
 }
 
+html body img {
+  width: 100%;
+  height: auto;
+}
+
 footer nav {
   display: grid;
   grid-template-columns: auto auto;
