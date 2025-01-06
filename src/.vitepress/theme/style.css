@@ -58,15 +58,26 @@ html {
 }
 
 html body {
-  background-color: #19181A;
-  color: #FCFCFA;
+  background-color: #19181a;
+  color: #fcfcfa;
   max-width: 768px;
   margin: auto;
   padding: 24px;
 }
 
 html body a {
-  color: #AB9DF2;
+  color: #918c8e;
+  text-decoration: none;
+}
+
+html body a:hover {
+  color: #ffd866;
+}
+
+html body hr {
+  background-color: #403e41;
+  border: none;
+  height: 1px;
 }
 
 footer nav {
