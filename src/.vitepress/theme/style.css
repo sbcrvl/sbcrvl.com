@@ -65,8 +65,16 @@ html body {
   padding: 24px;
 }
 
+html body h1 {
+  font-size: 1.5rem;
+}
+
+html body p {
+  color: #c1c0c0;
+}
+
 html body a {
-  color: #918c8e;
+  color: #727072;
   text-decoration: none;
 }
 
@@ -86,6 +94,7 @@ html body img {
 }
 
 footer nav {
+  padding: 4rem 0;
   display: grid;
   grid-template-columns: auto auto;
 }
@@ -93,4 +102,5 @@ footer nav {
 footer nav div {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
