@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { useData } from 'vitepress'
+import { useData } from "vitepress";
 
 // https://vitepress.dev/reference/runtime-api#usedata
-const { site, frontmatter } = useData()
+const { site, frontmatter } = useData();
 </script>
 
 <template>
@@ -20,11 +20,11 @@ const { site, frontmatter } = useData()
         <span v-else="index">{{ breadcrumb }}</span>
       </span>
     </div>
-  </header> 
+  </header>
   <main>
     <Content />
   </main>
-  <hr>
+  <hr />
   <footer>
     <nav>
       <div>
@@ -42,7 +42,7 @@ const { site, frontmatter } = useData()
     </nav>
 
     <section>
-      <img src="" alt="">
+      <img src="" alt="" />
 
       <div>
         <a href="/colophon">Colophon</a>
