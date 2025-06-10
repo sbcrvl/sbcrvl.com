@@ -1,0 +1,17 @@
+<rss version="2.0">
+<channel>
+    <title>Sebastian Carrera</title>
+    <link>https://www.sebastiancarrera.com/blog.html</link>
+    <description>Description</description>
+    <item>
+        <title>Title</title>
+        <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
+        <link>
+            https://sebastiancarrera.com/blog/2025-06-10.html
+        </link>
+        <guid>
+            https://sebastiancarrera.com/blog/2025-06-10.html
+        </guid>
+    </item>
+</channel>
+</rss>
