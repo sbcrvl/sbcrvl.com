@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'NotoSans';
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 100 900;
+  src: url(./public/fonts/NotoSans-VariableFont_wdth\,wght.ttf) format('woff2');
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-stretch: 100%;
+  font-style: italic;
+  font-weight: 100 900;
+  src: url(./public/fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf) format('woff2');
+}
+
+:root {
+    font-family: 'NotoSans';
+    font-style: normal;
+    
+    --background: #FFFFFF;
+    --text: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #000000;
+        --text: #FFFFFF;
+    }
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+
+    color: var(--text);
+    background-color: var(--background);
+}
